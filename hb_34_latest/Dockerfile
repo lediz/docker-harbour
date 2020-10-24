@@ -1,6 +1,6 @@
 FROM elmarit/harbour:compiler_default as build
 
-ENV HB_PLATFORM=linux
+ENV HB_PLATFORM=arm
 ENV HB_COMPILER=clang
 
 # Viktor Szakats 3.4 version
